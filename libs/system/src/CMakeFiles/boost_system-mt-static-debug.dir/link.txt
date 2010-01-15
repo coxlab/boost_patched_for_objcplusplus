@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libboost_system-mt-d.a  CMakeFiles/boost_system-mt-static-debug.dir/error_code.cpp.o
+/usr/bin/ranlib ../../../lib/libboost_system-mt-d.a

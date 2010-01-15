@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libboost_thread-mt-d.a  CMakeFiles/boost_thread-mt-static-debug.dir/pthread/thread.cpp.o CMakeFiles/boost_thread-mt-static-debug.dir/pthread/exceptions.cpp.o CMakeFiles/boost_thread-mt-static-debug.dir/pthread/once.cpp.o
+/usr/bin/ranlib ../../../lib/libboost_thread-mt-d.a

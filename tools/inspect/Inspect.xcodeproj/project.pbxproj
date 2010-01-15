@@ -1,0 +1,938 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 42;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              1FBED801FBED801FBED80000 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 1F9A8701F9A8701F9A870000 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            1FBFC301FBFC301FBFC30000 /* CMake ReRun */,
+                            1F851701F851701F85170000 /* CMake Rules */,
+                     );
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     dependencies = (
+                            1FB19501FB19501FB1950000 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              1F9C9801F9C9801F9C980000 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 1F8DD801F8DD801F8DD80000 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            1F9CB301F9CB301F9CB30000 /* CMake ReRun */,
+                            1FBEA401FBEA401FBEA40000 /* CMake PostBuild Rules */,
+                     );
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     dependencies = (
+                            1FB24F01FB24F01FB24F0000 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+              1FDACF01FDACF01FDACF0000 /* package */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 1FD89D01FD89D01FD89D0000 /* Build configuration list for PBXAggregateTarget "package" */;
+                     buildPhases = (
+                            1FDAED01FDAED01FDAED0000 /* CMake ReRun */,
+                            1FD98201FD98201FD9820000 /* CMake PostBuild Rules */,
+                     );
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     dependencies = (
+                            1FB24F01FB24F01FB24F0000 /* PBXTargetDependency */,
+                     );
+                     name = package;
+                     productName = package;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+1FA92E01FA92E01FA92E0000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/inspect.cpp */ = {isa = PBXBuildFile; fileRef = 1F785901F785901F78590000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/inspect.cpp */; settings = { COMPILER_FLAGS = "        "; }; };
+1F848E01F848E01F848E0000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/license_check.cpp */ = {isa = PBXBuildFile; fileRef = 1F845601F845601F84560000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/license_check.cpp */; settings = { COMPILER_FLAGS = "        "; }; };
+1FF03B01FF03B01FF03B0000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/link_check.cpp */ = {isa = PBXBuildFile; fileRef = 1FADD301FADD301FADD30000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/link_check.cpp */; settings = { COMPILER_FLAGS = "        "; }; };
+1FF10501FF10501FF1050000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/path_name_check.cpp */ = {isa = PBXBuildFile; fileRef = 1FF0B301FF0B301FF0B30000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/path_name_check.cpp */; settings = { COMPILER_FLAGS = "        "; }; };
+1FD0A901FD0A901FD0A90000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/tab_check.cpp */ = {isa = PBXBuildFile; fileRef = 1FD06801FD06801FD0680000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/tab_check.cpp */; settings = { COMPILER_FLAGS = "        "; }; };
+1FD16101FD16101FD1610000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/crlf_check.cpp */ = {isa = PBXBuildFile; fileRef = 1FD12201FD12201FD1220000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/crlf_check.cpp */; settings = { COMPILER_FLAGS = "        "; }; };
+1FD21501FD21501FD2150000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/end_check.cpp */ = {isa = PBXBuildFile; fileRef = 1FD1D801FD1D801FD1D80000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/end_check.cpp */; settings = { COMPILER_FLAGS = "        "; }; };
+1F881501F881501F88150000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/unnamed_namespace_check.cpp */ = {isa = PBXBuildFile; fileRef = 1FDEA001FDEA001FDEA00000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/unnamed_namespace_check.cpp */; settings = { COMPILER_FLAGS = "        "; }; };
+1FD4C101FD4C101FD4C10000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/ascii_check.cpp */ = {isa = PBXBuildFile; fileRef = 1FAA5F01FAA5F01FAA5F0000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/ascii_check.cpp */; settings = { COMPILER_FLAGS = "        "; }; };
+1FE05901FE05901FE0590000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/copyright_check.cpp */ = {isa = PBXBuildFile; fileRef = 1F9E6C01F9E6C01F9E6C0000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/copyright_check.cpp */; settings = { COMPILER_FLAGS = "        "; }; };
+1FBD7801FBD7801FBD780000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/minmax_check.cpp */ = {isa = PBXBuildFile; fileRef = 1F864A01F864A01F864A0000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/minmax_check.cpp */; settings = { COMPILER_FLAGS = "        "; }; };
+1F9A0D01F9A0D01F9A0D0000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1FBC6401FBC6401FBC640000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/CMakeLists.txt */; settings = { COMPILER_FLAGS = "        "; }; };
+1F938001F938001F93800000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1FBC6401FBC6401FBC640000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/CMakeLists.txt */; settings = { COMPILER_FLAGS = "        "; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              1FCA3101FCA3101FCA310000 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              1F7EB901F7EB901F7EB90000 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              1F9D5401F9D5401F9D540000 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              1FE02C01FE02C01FE02C0000 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              1F707E01F707E01F707E0000 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              1FE19401FE19401FE1940000 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 1FAB5B01FAB5B01FAB5B0000 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 1FB8B701FB8B701FB8B70000;
+                     remoteInfo = inspect;
+              };
+              1F960001F960001F96000000 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 1FAB5B01FAB5B01FAB5B0000 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 1FBED801FBED801FBED80000;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+1FBC6401FBC6401FBC640000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/CMakeLists.txt"; sourceTree = "<absolute>"; };
+1F785901F785901F78590000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/inspect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "inspect.cpp"; path = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/inspect.cpp"; sourceTree = "<absolute>"; };
+1F845601F845601F84560000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/license_check.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "license_check.cpp"; path = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/license_check.cpp"; sourceTree = "<absolute>"; };
+1FADD301FADD301FADD30000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/link_check.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "link_check.cpp"; path = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/link_check.cpp"; sourceTree = "<absolute>"; };
+1FF0B301FF0B301FF0B30000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/path_name_check.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "path_name_check.cpp"; path = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/path_name_check.cpp"; sourceTree = "<absolute>"; };
+1FD06801FD06801FD0680000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/tab_check.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "tab_check.cpp"; path = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/tab_check.cpp"; sourceTree = "<absolute>"; };
+1FD12201FD12201FD1220000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/crlf_check.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "crlf_check.cpp"; path = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/crlf_check.cpp"; sourceTree = "<absolute>"; };
+1FD1D801FD1D801FD1D80000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/end_check.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "end_check.cpp"; path = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/end_check.cpp"; sourceTree = "<absolute>"; };
+1FDEA001FDEA001FDEA00000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/unnamed_namespace_check.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "unnamed_namespace_check.cpp"; path = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/unnamed_namespace_check.cpp"; sourceTree = "<absolute>"; };
+1FAA5F01FAA5F01FAA5F0000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/ascii_check.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "ascii_check.cpp"; path = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/ascii_check.cpp"; sourceTree = "<absolute>"; };
+1F9E6C01F9E6C01F9E6C0000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/copyright_check.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "copyright_check.cpp"; path = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/copyright_check.cpp"; sourceTree = "<absolute>"; };
+1F864A01F864A01F864A0000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/minmax_check.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "minmax_check.cpp"; path = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/minmax_check.cpp"; sourceTree = "<absolute>"; };
+1FAC5F01FAC5F01FAC5F0000 /* inspect */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = inspect; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              1F843701F843701F84370000  = {
+                     isa = PBXGroup;
+                     children = (
+                            1F72DD01F72DD01F72DD0000 /* Sources */,
+                            1F713901F713901F71390000 /* Resources */,
+                            1F799C01F799C01F799C0000 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              1F72DD01F72DD01F72DD0000 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            1FF01601FF01601FF0160000 /* ALL_BUILD */,
+                            1F7E3701F7E3701F7E370000 /* inspect */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              1F713901F713901F71390000 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              1FF01601FF01601FF0160000 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            1FBF5101FBF5101FBF510000 /* CMake Rules */,
+                            1FBC6401FBC6401FBC640000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              1FBF5101FBF5101FBF510000 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              1F7E3701F7E3701F7E370000 /* inspect */ = {
+                     isa = PBXGroup;
+                     children = (
+                            1F7B6701F7B6701F7B670000 /* Source Files */,
+                            1FBC6401FBC6401FBC640000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/CMakeLists.txt */,
+                     );
+                     name = inspect;
+                     sourceTree = "<group>";
+              };
+              1F7B6701F7B6701F7B670000 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            1F785901F785901F78590000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/inspect.cpp */,
+                            1F845601F845601F84560000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/license_check.cpp */,
+                            1FADD301FADD301FADD30000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/link_check.cpp */,
+                            1FF0B301FF0B301FF0B30000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/path_name_check.cpp */,
+                            1FD06801FD06801FD0680000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/tab_check.cpp */,
+                            1FD12201FD12201FD1220000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/crlf_check.cpp */,
+                            1FD1D801FD1D801FD1D80000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/end_check.cpp */,
+                            1FDEA001FDEA001FDEA00000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/unnamed_namespace_check.cpp */,
+                            1FAA5F01FAA5F01FAA5F0000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/ascii_check.cpp */,
+                            1F9E6C01F9E6C01F9E6C0000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/copyright_check.cpp */,
+                            1F864A01F864A01F864A0000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/minmax_check.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              1F799C01F799C01F799C0000 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            1FAC5F01FAC5F01FAC5F0000 /* inspect */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              1FB8B701FB8B701FB8B70000 /* inspect */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 1FC2C101FC2C101FC2C10000 /* Build configuration list for PBXNativeTarget "inspect" */;
+                     buildPhases = (
+                            1F942901F942901F94290000 /* CMake ReRun */,
+                            1F93DE01F93DE01F93DE0000 /* Sources */,
+                            1F94A801F94A801F94A80000 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_CPLUSPLUSFLAGS = "  ";
+                            OTHER_LDFLAGS = "              -Wl,-search_paths_first -headerpad_max_install_names";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = inspect;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/bin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     dependencies = (
+                     );
+                     name = inspect;
+                     productName = inspect;
+                     productReference = 1FAC5F01FAC5F01FAC5F0000 /* inspect */;
+                     productType = "com.apple.product-type.tool";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              1FAB5B01FAB5B01FAB5B0000 /* Project object */ = {
+                     isa = PBXProject;
+                     buildConfigurationList = 1FAD2C01FAD2C01FAD2C0000 /* Build configuration list for PBXProject  "Inspect" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            1F7EB901F7EB901F7EB90000 /* Debug */,
+                            1F9D5401F9D5401F9D540000 /* Release */,
+                            1FE02C01FE02C01FE02C0000 /* MinSizeRel */,
+                            1F707E01F707E01F707E0000 /* RelWithDebInfo */,
+                     );
+                     hasScannedForEncodings = 0;
+                     mainGroup = 1F843701F843701F84370000;
+                     projectRoot = /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect;
+                     targets = (
+                            1FBED801FBED801FBED80000 /* ALL_BUILD */,
+                            1FB8B701FB8B701FB8B70000 /* inspect */,
+                            1F9C9801F9C9801F9C980000 /* install */,
+                            1FDACF01FDACF01FDACF0000 /* package */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              1FE91E01FE91E01FE91E0000 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+              };
+              1FBFC301FBFC301FBFC30000 /* CMake ReRun */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake ReRun";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 -f /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/CMakeScripts/ReRunCMake.make";
+              };
+              1F851701F851701F85170000 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect -f /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+              };
+              1F942901F942901F94290000 /* CMake ReRun */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake ReRun";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 -f /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/CMakeScripts/ReRunCMake.make";
+              };
+              1F94A801F94A801F94A80000 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect -f /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/CMakeScripts/inspect_postBuildPhase.make$CONFIGURATION all";
+              };
+              1F9C0401F9C0401F9C040000 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+              };
+              1F9CB301F9CB301F9CB30000 /* CMake ReRun */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake ReRun";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 -f /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/CMakeScripts/ReRunCMake.make";
+              };
+              1FBEA401FBEA401FBEA40000 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect -f /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+              };
+              1FDA5801FDA5801FDA580000 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+              };
+              1FDAED01FDAED01FDAED0000 /* CMake ReRun */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake ReRun";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 -f /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/CMakeScripts/ReRunCMake.make";
+              };
+              1FD98201FD98201FD9820000 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect -f /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              1F93DE01F93DE01F93DE0000 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            1FA92E01FA92E01FA92E0000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/inspect.cpp */,
+                            1F848E01F848E01F848E0000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/license_check.cpp */,
+                            1FF03B01FF03B01FF03B0000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/link_check.cpp */,
+                            1FF10501FF10501FF1050000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/path_name_check.cpp */,
+                            1FD0A901FD0A901FD0A90000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/tab_check.cpp */,
+                            1FD16101FD16101FD1610000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/crlf_check.cpp */,
+                            1FD21501FD21501FD2150000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/end_check.cpp */,
+                            1F881501F881501F88150000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/unnamed_namespace_check.cpp */,
+                            1FD4C101FD4C101FD4C10000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/ascii_check.cpp */,
+                            1FE05901FE05901FE0590000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/copyright_check.cpp */,
+                            1FBD7801FBD7801FBD780000 /* /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/tools/inspect/minmax_check.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              1FB19501FB19501FB1950000 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 1FB8B701FB8B701FB8B70000 /* inspect */;
+                     targetProxy = 1FE19401FE19401FE1940000 /* PBXContainerItemProxy */;
+              };
+              1FB24F01FB24F01FB24F0000 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 1FBED801FBED801FBED80000 /* ALL_BUILD */;
+                     targetProxy = 1F960001F960001F96000000 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              1F867401F867401F86740000 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "i386 x86_64 ";
+                            SDKROOT = "/Developer/SDKs/MacOSX10.5.sdk";
+                     };
+                     name = Debug;
+              };
+              1FC30F01FC30F01FC30F0000 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "i386 x86_64 ";
+                            SDKROOT = "/Developer/SDKs/MacOSX10.5.sdk";
+                     };
+                     name = Release;
+              };
+              1FEA8001FEA8001FEA800000 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "i386 x86_64 ";
+                            SDKROOT = "/Developer/SDKs/MacOSX10.5.sdk";
+                     };
+                     name = MinSizeRel;
+              };
+              1F82D201F82D201F82D20000 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "i386 x86_64 ";
+                            SDKROOT = "/Developer/SDKs/MacOSX10.5.sdk";
+                     };
+                     name = RelWithDebInfo;
+              };
+              1F954601F954601F95460000 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     name = Debug;
+              };
+              1F9B7101F9B7101F9B710000 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     name = Release;
+              };
+              1F8FD701F8FD701F8FD70000 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     name = MinSizeRel;
+              };
+              1F743701F743701F74370000 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     name = RelWithDebInfo;
+              };
+              1FC2F401FC2F401FC2F40000 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_CPLUSPLUSFLAGS = "  ";
+                            OTHER_LDFLAGS = "              -Wl,-search_paths_first -headerpad_max_install_names /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/lib/Debug/libboost_filesystem-mt-d.a /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/lib/Debug/libboost_regex-mt-d.a /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/lib/Debug/libboost_system-mt-d.a /opt/local/lib/libicuuc.dylib /opt/local/lib/libicui18n.dylib";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = inspect;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/bin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     name = Debug;
+              };
+              1FEB3E01FEB3E01FEB3E0000 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "  ";
+                            OTHER_LDFLAGS = "              -Wl,-search_paths_first -headerpad_max_install_names /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/lib/Release/libboost_filesystem-mt.a /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/lib/Release/libboost_regex-mt.a /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/lib/Release/libboost_system-mt.a /opt/local/lib/libicuuc.dylib /opt/local/lib/libicui18n.dylib";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = inspect;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/bin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     name = Release;
+              };
+              1FB82501FB82501FB8250000 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "  ";
+                            OTHER_LDFLAGS = "              -Wl,-search_paths_first -headerpad_max_install_names /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/lib/MinSizeRel/libboost_filesystem-mt.a /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/lib/MinSizeRel/libboost_regex-mt.a /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/lib/MinSizeRel/libboost_system-mt.a /opt/local/lib/libicuuc.dylib /opt/local/lib/libicui18n.dylib";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = inspect;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/bin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     name = MinSizeRel;
+              };
+              1F964D01F964D01F964D0000 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "        ";
+                            OTHER_CPLUSPLUSFLAGS = "  ";
+                            OTHER_LDFLAGS = "              -Wl,-search_paths_first -headerpad_max_install_names /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/lib/RelWithDebInfo/libboost_filesystem-mt.a /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/lib/RelWithDebInfo/libboost_regex-mt.a /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/lib/RelWithDebInfo/libboost_system-mt.a /opt/local/lib/libicuuc.dylib /opt/local/lib/libicui18n.dylib";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = inspect;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/bin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     name = RelWithDebInfo;
+              };
+              1FBFA701FBFA701FBFA70000 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     name = Debug;
+              };
+              1F90C001F90C001F90C00000 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     name = Release;
+              };
+              1F8F8601F8F8601F8F860000 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     name = MinSizeRel;
+              };
+              1FAF9A01FAF9A01FAF9A0000 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     name = RelWithDebInfo;
+              };
+              1FD8F201FD8F201FD8F20000 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     name = Debug;
+              };
+              1FDDAE01FDDAE01FDDAE0000 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     name = Release;
+              };
+              1FDC7301FDC7301FDC730000 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     name = MinSizeRel;
+              };
+              1FD6FC01FD6FC01FD6FC0000 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"' 'BOOST_ALL_NO_LIB=1'";
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = "/Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0 /Users/davidcox/Repositories/monkeyworks/mw_supporting/boost_1_40_0/libs/inspect/include ";
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              1FAD2C01FAD2C01FAD2C0000 /* Build configuration list for PBXProject  "Inspect" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            1F867401F867401F86740000 /* Debug */,
+                            1FC30F01FC30F01FC30F0000 /* Release */,
+                            1FEA8001FEA8001FEA800000 /* MinSizeRel */,
+                            1F82D201F82D201F82D20000 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              1F9A8701F9A8701F9A870000 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            1F954601F954601F95460000 /* Debug */,
+                            1F9B7101F9B7101F9B710000 /* Release */,
+                            1F8FD701F8FD701F8FD70000 /* MinSizeRel */,
+                            1F743701F743701F74370000 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              1FC2C101FC2C101FC2C10000 /* Build configuration list for PBXNativeTarget "inspect" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            1FC2F401FC2F401FC2F40000 /* Debug */,
+                            1FEB3E01FEB3E01FEB3E0000 /* Release */,
+                            1FB82501FB82501FB8250000 /* MinSizeRel */,
+                            1F964D01F964D01F964D0000 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              1F8DD801F8DD801F8DD80000 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            1FBFA701FBFA701FBFA70000 /* Debug */,
+                            1F90C001F90C001F90C00000 /* Release */,
+                            1F8F8601F8F8601F8F860000 /* MinSizeRel */,
+                            1FAF9A01FAF9A01FAF9A0000 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              1FD89D01FD89D01FD89D0000 /* Build configuration list for PBXAggregateTarget "package" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            1FD8F201FD8F201FD8F20000 /* Debug */,
+                            1FDDAE01FDDAE01FDDAE0000 /* Release */,
+                            1FDC7301FDC7301FDC730000 /* MinSizeRel */,
+                            1FD6FC01FD6FC01FD6FC0000 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 1FAB5B01FAB5B01FAB5B0000 /* Project object */;
+}

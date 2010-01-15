@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libboost_graph-mt-d.a  CMakeFiles/boost_graph-mt-static-debug.dir/read_graphviz_spirit.cpp.o
+/usr/bin/ranlib ../../../lib/libboost_graph-mt-d.a

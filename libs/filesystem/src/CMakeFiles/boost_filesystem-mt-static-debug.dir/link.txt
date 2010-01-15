@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libboost_filesystem-mt-d.a  CMakeFiles/boost_filesystem-mt-static-debug.dir/operations.cpp.o CMakeFiles/boost_filesystem-mt-static-debug.dir/path.cpp.o CMakeFiles/boost_filesystem-mt-static-debug.dir/portability.cpp.o CMakeFiles/boost_filesystem-mt-static-debug.dir/utf8_codecvt_facet.cpp.o
+/usr/bin/ranlib ../../../lib/libboost_filesystem-mt-d.a

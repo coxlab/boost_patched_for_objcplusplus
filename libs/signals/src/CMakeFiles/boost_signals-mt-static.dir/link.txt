@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libboost_signals-mt.a  CMakeFiles/boost_signals-mt-static.dir/trackable.cpp.o CMakeFiles/boost_signals-mt-static.dir/connection.cpp.o CMakeFiles/boost_signals-mt-static.dir/named_slot_map.cpp.o CMakeFiles/boost_signals-mt-static.dir/signal_base.cpp.o CMakeFiles/boost_signals-mt-static.dir/slot.cpp.o
+/usr/bin/ranlib ../../../lib/libboost_signals-mt.a

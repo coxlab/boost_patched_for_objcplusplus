@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libboost_graph_parallel-mt.a  CMakeFiles/boost_graph_parallel-mt-static.dir/mpi_process_group.cpp.o CMakeFiles/boost_graph_parallel-mt-static.dir/tag_allocator.cpp.o
+/usr/bin/ranlib ../../../lib/libboost_graph_parallel-mt.a
